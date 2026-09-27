@@ -10,8 +10,9 @@ body {
   @apply bg-sand text-ink font-sans antialiased;
 }
 
-[dir='rtl'] .flip-rtl {
-  transform: scaleX(-1);
+
+[dir='rtl'] .font-display {
+  font-family: "IBM Plex Sans Arabic", "IBM Plex Sans", sans-serif;
 }
 
 ::selection {
